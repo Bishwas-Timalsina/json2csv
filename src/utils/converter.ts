@@ -1,7 +1,7 @@
 export const jsonToCsv = (items: any) => {
    (items?.length);
 
-  if (!items.length) return ""; // Handle empty input
+  if (!items.length) return "";
 
   const header = Object.keys(items[0]);
   const headerString = header.join(",");

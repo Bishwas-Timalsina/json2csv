@@ -1,11 +1,10 @@
 import { useState } from "react";
-import PasteCode from "../components/PasteCode";
+import DownloadCSVFIle from "../components/DownloadCSVFIle";
 import FileUploader from "../components/FileUploader";
 import Info from "../components/Info";
+import PasteCode from "../components/PasteCode";
 import { jsonToCsv } from "../utils/converter";
-import { DummyJson } from "../utils/DummyJson";
 import { flattenJson } from "../utils/flattenJson";
-import DownloadCSVFIle from "../components/DownloadCSVFIle";
 // import { jsonToCsv } from "../utils/converter";
 
 const Converter = () => {

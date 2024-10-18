@@ -1,4 +1,3 @@
-import React from "react";
 import { FaUpload } from "react-icons/fa";
 
 const FileUploader = () => {
