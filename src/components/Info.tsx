@@ -15,7 +15,7 @@ const Info = () => {
               Press the <span className="font-[500]">convert button</span>
             </li>
             <li>
-              <span className="font-[500]">Download</span> the resulting file
+              <span className="font-[500]">Download</span> the converted file
             </li>
             <li>
               <span className="font-[500]">Open the CSV </span>
