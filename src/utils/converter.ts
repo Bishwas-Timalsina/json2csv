@@ -1,12 +1,12 @@
 export const jsonToCsv = (items: any) => {
-   (items?.length);
+  items?.length;
 
   if (!items.length) return "";
 
   const header = Object.keys(items[0]);
   const headerString = header.join(",");
 
-  const replacer = (key: any, value: any) =>
+  const replacer = (value: any) =>
     value !== null && value !== undefined ? value : "";
 
   const rowItems = items.map((row: any) =>
